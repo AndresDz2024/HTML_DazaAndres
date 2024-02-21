@@ -5,3 +5,17 @@
 .color{
     color: rgb(13, 5, 98);
 }
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid;
+    border-radius: 20%;
+    border-width: 10;
+    border-color: beige;
+    border-style: groove;
+
+}
