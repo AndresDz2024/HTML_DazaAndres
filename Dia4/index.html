@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <form name="DatosUsuario" method="get" action="Mipaginita.html">
+        <label for="nombre">Nombre:</label>
+        <input maxlength="50" id="nombre" type="text" name="nombre" required placeholder="Ingresa tu nombre...">
+        <label for="apellidos">Apellidos:</label>
+        <input maxlength="50" id="apellidos" type="text" name="apellidos" required placeholder="Ingresa tus apellidos...">  
+        <div>
+            <table class="tablita">
+                <tr>
+                    <td colspan="2">selecciona un genero:</td>
+                </tr>    
+                <tr>
+                    <td>
+                        <label for="masculino">Masculino</label>
+                        <input id="masculino" type="radio" name="genero">
+                    </td>
+                    <td>
+                        <label for="femenino">Femenino</label>
+                        <input id="femenino" type="radio" name="genero" required>    
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <label for="correoE">Correo Electronico:</label>
+        <input id="correoE" type="email" name="correo" required placeholder="Ingresa tu correo electronico...">
+        <label for="V">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        <input type="checkbox" name="verificacion" id="V" checked>
+        <label for="A">Deseo recibir información sobre novedades y ofertas</label>
+        <input type="checkbox" name="verificacion" id="A" required>
+        <label for="P">Poblacion:</label>
+        <select name="poblacion" id="P">
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Giron">Giron</option>
+            <option value="Floridablanca">Floridablanca</option>
+            <option value="Piedecuesta">Piedecuesta</option>
+        </select>
+        <label for="D">Descripcion:</label>
+        <textarea name="Des" id="D" cols="20" rows="0" placeholder="Escriba una descripcion..."></textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
