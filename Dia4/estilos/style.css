@@ -31,6 +31,7 @@ select {
 }
 
 input[type="submit"] {
+    width: 100%;
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -68,4 +69,6 @@ footer{
 }
 .formulario{
     text-align: center;
+    font-family: Georgia;
+    color: #702242;
 }
