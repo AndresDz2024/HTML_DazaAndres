@@ -1,6 +1,114 @@
+@font-face {
+    font-family: 'AmazonEmber';
+    src: url(../fuentes/AmazonEmber_Bd.ttf);
+    font-weight: bold;
+    font-style: bold;
+}   
+@font-face {
+    font-family: 'AmazonEmber';
+    src: url(../fuentes/AmazonEmber_Lt.ttf);
+    font-weight: normal;
+    font-style: normal;
+}  
+
 body {
     width: 1920px;
     height: 1080px;
     background-image: url(../imagenes/fondo.png);
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #000;
+    margin: 0;
+}
+
+.lupa{
+    position: absolute;
+    top: 37.5px;
+    left: 63.43px;
+    width: 36px;
+    height: 36px;  
+}
+.logo {
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+}
+.texto1{
+    color: white;
+    font-family: "AmazonEmber";
+    font-weight: bold;
+    position: absolute;
+    font-size: 60px;
+    top: 443px;
+    left: 396px;
+    width: 1151px;
+    height: 60px;
+}
+.login{
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+}
+.loginT{
+    color: #000000;
+    font-family: "AmazonEmber";
+    font-weight: normal;
+    position: absolute;
+    font-size: 20px;
+    top: 48px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.textoL{
+    color: white;
+    font-family: "AmazonEmber";
+    font-weight: normal;
+    position: absolute;
+    font-size: 30px;
+    top: 570px;
+    left: 370px;
+    width: 1160px;
+    height: 102px;
+    text-align: center;
+}
+.signup{
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px
+}
+.textoS{
+    color: #000000;
+    font-family: "AmazonEmber";
+    font-weight: normal;
+    position: absolute;
+    font-size: 40px;
+    top: 780px;
+    left: 780px;
+    width: 360px;
+    height: 40px;    
+}
+.azul1{
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+}
+.azul2{
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
 }
