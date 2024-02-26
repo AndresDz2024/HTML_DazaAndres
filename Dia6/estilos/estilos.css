@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fuentes/OpenSans-Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fuentes/OpenSans-Semibold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    width: 1920px;
+    height: 1080px;
+    background-color: #776f6f;
+    margin: 0;
+}
+
+.paginita{
+    border-radius: 1%;
+    position: absolute;
+    background-color: #ffff;
+    left: 260px;
+    width: 1400px;
+    height: 800px;
+}
+.principal{
+    position: absolute;
+    top: 43px;
+    left: 43px;
+    width: 196px;
+    height: 44px;
+}
+.barra{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 110px;
+    height: 800px;
+}
+.tarjeta{
+    position: absolute;
+    top: 180px;
+    left: 327px;
+    width: 884px;
+    height: 497px;
+}
+.texto1{
+    font-family: "OpenSans";
+    font-style: bold;
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    width: 230px;
+    height: 41px;
+}
+.texto2{
+    font-family: "OpenSans";
+    font-style: bold;
+    position: absolute;
+    top: 60px;
+    left: 972px;
+    width: 132px;
+    height: 41px;
+}
