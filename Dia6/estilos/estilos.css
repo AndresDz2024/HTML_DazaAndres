@@ -23,38 +23,38 @@ body{
     right: 0%;
     width: 170px;
     height: 1080px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .principal{
     position: absolute;
     top: 43px;
     left: 43px;
-    width: 196px;
-    height: 44px;
+    width: 250px;
+    height: 50px;
 }
 
 .tarjeta{
     position: absolute;
-    top: 180px;
+    top: 250px;
     left: 327px;
-    width: 884px;
+    width: 810px;
     height: 497px;
 }
 .texto1{
     font-family: "OpenSans";
     font-style: normal;
     position: absolute;
-    font-size: 30px;
+    font-size: 40px;
     top: 40px;
-    left: 1050px;
-    width: 230px;
+    left: 925px;
+    width: 307px;
     height: 41px;
     text-decoration: none;
     color: black;
     display: inline-block;
     padding: 10px 20px;
-    transition: 0.3s ease;
+    
 }
 .texto1:after {
     content: "";
@@ -76,10 +76,10 @@ body{
     font-family: "OpenSans";
     font-style: normal;
     position: absolute;
-    font-size: 30px;
+    font-size: 40px;
     top: 40px;
-    left: 1320px;
-    width: 132px;
+    left: 1300px;
+    width: 176px;
     height: 41px;
     text-decoration: none;
     color: black;
@@ -106,34 +106,72 @@ body{
 .lupa{
     position: absolute;
     top: 60px;
-    left: 1550px;
-    width: 27px;
-    height: 27px;
+    left: 1525px;
+    width: 38px;
+    height: 38px;
 }
 .carrito{
     position: absolute;
     top: 55px;
     left: 1650px;
-    width: 33px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
 }
 .info{
     position: absolute;
     font-family: "OpenSans";
     font-style: bold;
-    font-size: 40px;
+    font-size: 50px;
     top: 861px;
-    left: 158px;
-    width: 716px;
+    left: 120px;
+    width: 870px;
     height: 55px;
 }
 .Precio{
     position: absolute;
     font-family: "OpenSans";
     font-style: bold;
-    font-size: 27px;
+    font-size: 37px;
     top: 924px;
-    left: 157px;
-    width: 139px;
+    left: 120px;
+    width: 190px;
     height: 37px;
+}
+.cuadro1{
+    position: absolute;
+    top: 847px;
+    left: 1500px;
+    width: 180px;
+    height: 130px;
+}
+.logito{
+    position: absolute;
+    top: 876px;
+    left: 1520px;
+    width: 140px;
+    height: 39px;    
+}
+.texto_compra{
+    position: absolute;
+    font-family: "OpenSans";
+    font-style: bold;
+    font-size: 36px;
+    top: 917px;
+    left: 1515px;
+    width: 111px;
+    height: 36px;
+}
+.flecha_arriba{
+    position: absolute;
+    top: 30px;
+    left: 1820px;
+    width: 34px;
+    height: 24px;
+}
+.flecha_abajo{
+    position: absolute;
+    top: 950px;
+    left: 1820px;
+    width: 34px;
+    height: 24px;
 }
