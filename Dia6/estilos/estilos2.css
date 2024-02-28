@@ -36,10 +36,11 @@ body{
 
 .tarjeta{
     position: absolute;
-    top: 250px;
-    left: 327px;
-    width: 810px;
-    height: 497px;
+    border-radius: 5%;
+    top: 180px;
+    left: 575px;
+    width: 550px;
+    height: 300px;
 }
 .texto1{
     font-family: "OpenSans";
@@ -54,18 +55,6 @@ body{
     color: black;
     display: inline-block;
     padding: 10px 20px;
-    
-}
-.texto1:after {
-    content: "";
-    display: block;
-    width: 200px;
-    height: 2px;
-    background-color: #050505;
-    position: absolute;
-    top: 90px;
-    left: 70px;
-    opacity: 1;
 }
 .texto2{
     font-family: "OpenSans";
@@ -80,6 +69,17 @@ body{
     color: black;
     display: inline-block;
     padding: 10px 20px;
+}
+.texto2:after {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 2px;
+    background-color: #050505;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    opacity: 1;
 }
 .lupa{
     position: absolute;
@@ -99,17 +99,17 @@ body{
     position: absolute;
     font-family: "OpenSans";
     font-style: bold;
-    font-size: 50px;
-    top: 924px;
-    left: 80px;
+    font-size: 60px;
+    top: 525px;
+    left: 350px;
 }
 .Precio{
     position: absolute;
     font-family: "OpenSans";
     font-style: bold;
-    font-size: 37px;
-    top: 1000px;
-    left: 80px;
+    font-size: 40px;
+    top: 650px;
+    left: 610px;
 }
 .cuadro1{
     position: absolute;
@@ -125,13 +125,15 @@ body{
     width: 140px;
     height: 39px;    
 }
-.texto_compra{
+.texto_recarga{
     position: absolute;
     font-family: "OpenSans";
     font-style: bold;
     font-size: 29px;
     top: 1000px;
     left: 1530px;
+    width: 105px;
+    height: 36px;
 }
 .flecha_arriba{
     position: absolute;
@@ -147,39 +149,67 @@ body{
     width: 34px;
     height: 24px;
 }
-.texto_cantidad{
+.texto_valor{
     font-family: "OpenSans";
     font-style: normal;
     position: absolute;
     color: #ffffff;
     font-size: 30px;
     top: 200px;
-    left: 1770px;
+    left: 1800px;
+    width: 34px;
+    height: 24px;
 }
-.numero_04{
+.valor_1{
     font-family: "OpenSans";
     font-style: normal;
     position: absolute;
     color: #a79b9b;
     font-size: 30px;
     top: 400px;
-    left: 1820px;  
+    left: 1790px;
+    width: 34px;
+    height: 24px;  
 }
-.numero_05{
+.valor_2{
     font-family: "OpenSans";
     font-style: normal;
     position: absolute;
     color: #ffffff;
     font-size: 30px;
     top: 500px;
-    left: 1820px;  
+    left: 1790px;
+    width: 34px;
+    height: 24px;  
 }
-.numero_06{
+.valor_3{
     font-family: "OpenSans";
     font-style: normal;
     position: absolute;
     color: #a79b9b;
     font-size: 30px;
     top: 600px;
-    left: 1820px; 
+    left: 1790px;
+    width: 34px;
+    height: 24px;  
+}
+.saldo{
+    position: absolute;
+    font-family: "OpenSans";
+    font-style: bold;
+    font-size: 40px;
+    top: 750px;
+    left: 700px;
+}
+.texto{
+    position: absolute;
+    border-radius: 20px;
+    font-family: "OpenSans";
+    font-style: bold;
+    font-size: 40px;
+    top: 830px;
+    left: 630px;
+    width: 410px;
+    height: 65px;
+    text-align: center;
 }
