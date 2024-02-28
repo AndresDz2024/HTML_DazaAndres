@@ -113,10 +113,12 @@ body{
 }
 .cuadro1{
     position: absolute;
+    background-color: #D5FF43;
     top: 920px;
     left: 1500px;
     width: 180px;
     height: 130px;
+    border-radius: 5%;
 }
 .logito{
     position: absolute;

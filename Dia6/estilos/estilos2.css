@@ -113,10 +113,12 @@ body{
 }
 .cuadro1{
     position: absolute;
+    background-color: #D5FF43;
     top: 920px;
     left: 1500px;
     width: 180px;
     height: 130px;
+    border-radius: 5%;
 }
 .logito{
     position: absolute;
@@ -212,4 +214,9 @@ body{
     width: 410px;
     height: 65px;
     text-align: center;
+}
+.texto::-webkit-inner-spin-button, 
+.texto::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
