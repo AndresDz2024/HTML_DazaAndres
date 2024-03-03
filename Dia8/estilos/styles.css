@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1d2b;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+.texto_Foods{
+    position: relative;
+    color: #ff702a;
+    font-size: 60px;
+    left: 1em;
+    top: 1em;
+}
+.texto_Full{
+    position: relative;
+    color: #ff702a;
+    font-size: 90px;
+    left: 2.8em;
+    top: 3em;
+}
+.info_E{
+    position: relative;
+    color: #ffffff;
+    font-size: 45px;
+    left: 5.7em;
+    top: 5.5em;
+}
+.texto_Today{
+    background-color: #ff702a;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    height: 2em;
+    left: 7.4em;
+    top: 8em;
+}
+.texto_Home{
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+
+}
+.texto_About{
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    left: 28em;
+    top: 40px;
+}
+.texto_Menu{
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    left: 32em;
+    top: 40px;
+}
+.texto_Service{
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    left: 36em;
+    top: 40px;
+}
+.texto_Contact{
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    left: 40em;
+    top: 40px;
+}
+.imagen_P{
+    position: relative;
+    left: 880px;
+    top: 150px;
+    width: 650px;
+    height: 600px;
+}
+.about_us{
+    position: relative;
+    font-size: 40px;
+    color: #ff702a;
+    left: 950px;
+    top: 1100px;
+    width: 179px;   
+}
+.texto_good{
+    position: relative;
+    font-size: 50px;
+    color: #ffffff;
+    left: 950px;
+    top: 1150px; 
+}
+.info_I{
+    position: relative;
+    font-size: 25px;
+    color: #ffffff;
+    left: 950px;
+    top: 1330px; 
+}
+.texto_learn{
+    background-color: #ff702a;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    left: 950px;
+    top: 1520px;
+    height: 55px;
+    width: 260px;
+}
+.imagen_about{
+    position: relative;
+    top: 1070px;
+    left: 260px;
+    width: 600px;
+    height: 600px;
+}
+.texto_foodmenu{
+    position: relative;
+    color: #ff702a;
+    font-size: 35px;
+    top: 1800px;
+    left: 860px;
+}
+.Fresh{
+    position: relative;
+    color: #ffffff;
+    font-size: 70px;
+    top: 1850px;
+    left: 520px;
+}
+.caja1{
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+.fondito{
+    position: relative;
+    background-color: #ffefe8;
+    top:  2100px;
+    left: 210px;
+    width: 450px;
+    height: 500px;
+}
+.info1{
+    position: relative;
+    font-size: 35px;
+    top:  350px;
+    left: 100px;
+}
+.tasty1{
+    position: relative;
+    font-size: 30px;
+    top:  400px;
+    left: 155px;
+}
+.valor1{
+    color: #ff702a;
+    position: relative;
+    font-size: 30px;
+    top:  450px;
+    left: 190px;
+}
+.caja2{
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+.fondito2{
+    position: relative;
+    background-color: #ffefe8;
+    top:  2100px;
+    left: 705px;
+    width: 450px;
+    height: 500px;
+}
+.info2{
+    position: relative;
+    font-size: 35px;
+    top:  350px;
+    left: 60px;
+}
+.tasty2{
+    position: relative;
+    font-size: 30px;
+    top:  400px;
+    left: 155px;
+}
+.valor2{
+    color: #ff702a;
+    position: relative;
+    font-size: 30px;
+    top:  450px;
+    left: 190px;
+}
+.caja3{
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+.fondito3{
+    position: relative;
+    background-color: #ffefe8;
+    top:  2100px;
+    left: 1200px;
+    width: 450px;
+    height: 500px;
+}
+.info3{
+    position: relative;
+    font-size: 35px;
+    top:  350px;
+    left: 80px;
+}
+.tasty3{
+    position: relative;
+    font-size: 30px;
+    top:  400px;
+    left: 150px;
+}
+.valor3{
+    color: #ff702a;
+    position: relative;
+    font-size: 30px;
+    top:  450px;
+    left: 190px;
+}
+.texto_services{
+    color: #ff702a;
+    font-size: 35px;
+    position: relative;
+    top: 2800px;
+    left: 900px;
+}
+.We{
+    color: #ffffff;
+    font-size: 70px;
+    position: relative;
+    top: 2850px;
+    left: 400px;
+}
+.img1{
+    position: relative;
+    font-size: 30px;
+    top: 3180px;
+    left: 250px;
+    width: 350px;
+}
+.order{
+    position: relative;
+    color: #ff702a;
+    font-size: 35px;
+    top: 3520px;
+    left: 340px;
+}
+.img2{
+    position: relative;
+    font-size: 30px;
+    top: 3180px;
+    left: 780px;
+    width: 350px;
+}
+.shipping{
+    position: relative;
+    color: #ff702a;
+    font-size: 35px;
+    top: 3520px;
+    left: 880px;
+}
+.img3{
+    position: relative;
+    font-size: 30px;
+    top: 3180px;
+    left: 1350px;
+    width: 300px;
+}
+.dellvered{
+    position: relative;
+    color: #ff702a;
+    font-size: 35px;
+    top: 3520px;
+    left: 1400px;
+}
+.a1{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    top: 3620px;
+    left: 200px;
+}
+.a2{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    top: 3620px;
+    left: 760px;
+}
+.a3{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    top: 3620px;
+    left: 1200px;
+    width: 500px;
+}
+.F{
+    position: relative;
+    top: 4000px;
+    left: 20px;
+    width: 1800px;
+    height: 550px;
+}
+.make{
+    position: relative;
+    font-size: 70px;
+    top: 4100px;
+    left: 550px;
+    text-align: center;
+}
+.texto_learn2{
+    background-color: #ff702a;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    left: 820px;
+    top: 4400px;
+    height: 55px;
+    width: 260px;
+}
+footer{
+    position: relative;
+    top: 4850px;
+    left: 200px;
+    height: 500px;
+}
+.foot1{
+    font-size: 50px;
+    color: #ffffff;
+}
+.foot1_m{
+    position: relative;
+    font-size: 35px;
+    color: #ffffff;
+    top: 150px;
+}
+.foot1:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #ff702a;
+    position: relative;
+    top: 90px;
+    left: 0px;
+    opacity: 1;
+}
+.foot2{
+    position: relative;
+    top: 0px;
+    left: 400px;
+    font-size: 50px;
+    width: 285px;
+    color: #ffffff;
+}
+.foot2_m{
+    position: relative;
+    font-size: 35px;
+    color: #ffffff;
+    top: 150px;
+    left: 400px;
+    width: 385px;
+}
+.foot2:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #ff702a;
+    position: relative;
+    top: 90px;
+    left: 0px;
+    opacity: 1;
+}
+.foot3{
+    position: relative;
+    top: 0px;
+    left: 820px;
+    font-size: 50px;
+    width: 285px;
+    color: #ffffff;
+}
+.foot3_m{
+    position: relative;
+    font-size: 35px;
+    color: #ffffff;
+    top: 150px;
+    left: 820px;
+    width: 400px;
+}
+.foot3:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #ff702a;
+    position: relative;
+    top: 90px;
+    left: 0px;
+    opacity: 1;
+}
+.foot4{
+    position: relative;
+    top: 0px;
+    left: 1220px;
+    font-size: 50px;
+    width: 285px;
+    color: #ffffff;
+}
+.foot4:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #ff702a;
+    position: relative;
+    top: 90px;
+    left: 0px;
+    opacity: 1;
+}
+.esfera1{
+    background-color: #ff702a;
+    border-radius: 100%;
+    position: relative;
+    top: 130px;
+    left: 1200px;
+    width: 90px;
+    width: 40px;
+    height: 40px;
+}
+.esfera2{
+    background-color: #ff702a;
+    border-radius: 100%;
+    position: relative;
+    top: 130px;
+    left: 1260px;
+    width: 90px;
+    width: 40px;
+    height: 40px;
+}
+.esfera3{
+    background-color: #ff702a;
+    border-radius: 100%;
+    position: relative;
+    top: 130px;
+    left: 1320px;
+    width: 90px;
+    width: 40px;
+    height: 40px;
+}
+.esfera4{
+    background-color: #ff702a;
+    border-radius: 100%;
+    position: relative;
+
+}
