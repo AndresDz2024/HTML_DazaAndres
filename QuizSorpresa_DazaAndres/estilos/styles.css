@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html{
     font-family: 'Poppins', sans-serif;
-    width: 1920px;
-    height: 1080px;
     background-color: #1e1d2b;
     margin: 0%;
 }
@@ -93,14 +91,14 @@ a{
 }
 .texto_good{
     position: absolute;
-    font-size: 60px;
+    font-size: 50px;
     color: #ffffff;
     left: 950px;
     top: 1150px; 
 }
 .info_I{
     position: absolute;
-    font-size: 35px;
+    font-size: 25px;
     color: #ffffff;
     left: 950px;
     top: 1330px; 
@@ -257,7 +255,7 @@ a{
 .order{
     position: absolute;
     color: #ff702a;
-    font-size: 45px;
+    font-size: 35px;
     top: 3520px;
     left: 340px;
 }
@@ -265,13 +263,13 @@ a{
     position: absolute;
     font-size: 30px;
     top: 3180px;
-    left: 820px;
+    left: 780px;
     width: 350px;
 }
 .shipping{
     position: absolute;
     color: #ff702a;
-    font-size: 45px;
+    font-size: 35px;
     top: 3520px;
     left: 880px;
 }
@@ -279,39 +277,40 @@ a{
     position: absolute;
     font-size: 30px;
     top: 3180px;
-    left: 1450px;
+    left: 1350px;
     width: 300px;
 }
 .dellvered{
     position: absolute;
     color: #ff702a;
-    font-size: 45px;
+    font-size: 35px;
     top: 3520px;
-    left: 1490px;
+    left: 1400px;
 }
 .a1{
     position: absolute;
     text-align: center;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 25px;
     top: 3620px;
-    left: 150px;
+    left: 200px;
 }
 .a2{
     position: absolute;
     text-align: center;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 25px;
     top: 3620px;
-    left: 720px;
+    left: 760px;
 }
 .a3{
     position: absolute;
     text-align: center;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 25px;
     top: 3620px;
-    left: 1300px;
+    left: 1200px;
+    width: 500px;
 }
 .F{
     position: absolute;
