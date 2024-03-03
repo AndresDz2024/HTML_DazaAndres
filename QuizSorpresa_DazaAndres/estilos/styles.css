@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
+html{
     font-family: 'Poppins', sans-serif;
+    width: 1920px;
+    height: 1080px;
     background-color: #1e1d2b;
-    margin: 0;
-    overflow-x: hidden
+    margin: 0%;
 }
 a{
     text-decoration: none;
@@ -127,129 +124,128 @@ a{
     height: 600px;
 }
 .texto_foodmenu{
-    color: #ff702a;
-    text-align: center;
-    font-size: 35px;
     position: absolute;
+    color: #ff702a;
+    font-size: 35px;
     top: 1800px;
-    left: 850px;
+    left: 860px;
 }
 .Fresh{
-    color: #ffffff;
-    text-align: center;
-    font-size: 70px;
     position: absolute;
+    color: #ffffff;
+    font-size: 70px;
     top: 1850px;
-    left: 500px;
+    left: 520px;
 }
 .caja1{
     position: absolute;
-    top:  2150px;
-    left: 300px;
+    top: 30px;
+    left: 80px;
 }
 .fondito{
     position: absolute;
+    background-color: #ffefe8;
     top:  2100px;
     left: 210px;
-    width: 1500px;
-    height: 900px;
+    width: 450px;
+    height: 500px;
 }
 .info1{
     position: absolute;
     font-size: 35px;
-    top:  2450px;
-    left: 320px;
+    top:  350px;
+    left: 100px;
 }
 .tasty1{
     position: absolute;
     font-size: 30px;
-    top:  2500px;
-    left: 370px;
+    top:  400px;
+    left: 155px;
 }
 .valor1{
     color: #ff702a;
     position: absolute;
     font-size: 30px;
-    top:  2535px;
-    left: 410px;
+    top:  450px;
+    left: 190px;
 }
 .caja2{
     position: absolute;
-    top:  2150px;
-    left: 810px;
+    top: 30px;
+    left: 80px;
 }
 .fondito2{
     position: absolute;
+    background-color: #ffefe8;
     top:  2100px;
-    left: 720px;
-    width: 1500px;
-    height: 900px;
+    left: 705px;
+    width: 450px;
+    height: 500px;
 }
 .info2{
     position: absolute;
     font-size: 35px;
-    top:  2450px;
-    left: 800px;
+    top:  350px;
+    left: 60px;
 }
 .tasty2{
     position: absolute;
     font-size: 30px;
-    top:  2500px;
-    left: 890px;
+    top:  400px;
+    left: 155px;
 }
 .valor2{
     color: #ff702a;
     position: absolute;
     font-size: 30px;
-    top:  2535px;
-    left: 930px;
+    top:  450px;
+    left: 190px;
 }
 .caja3{
     position: absolute;
-    top:  2150px;
-    left: 1320px;
+    top: 30px;
+    left: 80px;
 }
 .fondito3{
     position: absolute;
+    background-color: #ffefe8;
     top:  2100px;
-    left: 1230px;
-    width: 1500px;
-    height: 900px;
+    left: 1200px;
+    width: 450px;
+    height: 500px;
 }
 .info3{
     position: absolute;
     font-size: 35px;
-    top:  2450px;
-    left: 1320px;
+    top:  350px;
+    left: 80px;
 }
 .tasty3{
     position: absolute;
     font-size: 30px;
-    top:  2500px;
-    left: 1390px;
+    top:  400px;
+    left: 150px;
 }
 .valor3{
     color: #ff702a;
     position: absolute;
     font-size: 30px;
-    top:  2535px;
-    left: 1430px;
+    top:  450px;
+    left: 190px;
 }
 .texto_services{
     color: #ff702a;
-    text-align: center;
     font-size: 35px;
     position: absolute;
-    top: 2900px;
-    left: 880px;
+    top: 2800px;
+    left: 900px;
 }
 .We{
     color: #ffffff;
-    text-align: center;
     font-size: 70px;
     position: absolute;
-    top: 3000px;
-    left: 420px;
+    top: 2850px;
+    left: 400px;
 }
 .img1{
     position: absolute;
@@ -320,16 +316,16 @@ a{
 .F{
     position: absolute;
     top: 4000px;
-    left: 100px;
-    width: 1700px;
+    left: 20px;
+    width: 1800px;
     height: 550px;
 }
 .make{
-    text-align: center;
-    font-size: 70px;
     position: absolute;
-    top: 4050px;
+    font-size: 70px;
+    top: 4100px;
     left: 550px;
+    text-align: center;
 }
 .texto_learn2{
     background-color: #ff702a;
@@ -345,7 +341,7 @@ a{
 footer{
     position: absolute;
     top: 4850px;
-    left: 300px;
+    left: 200px;
     height: 500px;
 }
 .foot1{
@@ -448,6 +444,7 @@ footer{
     position: absolute;
     top: 130px;
     left: 1200px;
+    width: 90px;
     width: 40px;
     height: 40px;
 }
@@ -457,6 +454,7 @@ footer{
     position: absolute;
     top: 130px;
     left: 1260px;
+    width: 90px;
     width: 40px;
     height: 40px;
 }
@@ -466,6 +464,7 @@ footer{
     position: absolute;
     top: 130px;
     left: 1320px;
+    width: 90px;
     width: 40px;
     height: 40px;
 }
@@ -475,6 +474,7 @@ footer{
     position: absolute;
     top: 130px;
     left: 1380px;
+    width: 90px;
     width: 40px;
     height: 40px;
 }
