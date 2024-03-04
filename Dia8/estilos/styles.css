@@ -17,7 +17,7 @@ body{
 }
 .texto_Home{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 30px;
     text-decoration: none;
     top: 2em;
@@ -25,7 +25,7 @@ body{
 }
 .texto_About{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 30px;
     text-decoration: none;
     top: 2em;
@@ -33,7 +33,7 @@ body{
 }
 .texto_Menu{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 30px;
     text-decoration: none;
     top: 2em;
@@ -41,7 +41,7 @@ body{
 }
 .texto_Service{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 30px;
     text-decoration: none;
     top: 2em;
@@ -49,7 +49,7 @@ body{
 }
 .texto_Contact{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 30px;
     text-decoration: none;
     top: 2em;
@@ -65,7 +65,7 @@ body{
 }
 .info_E{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 40px;
     top: 13em;
     left: 6em;
@@ -80,7 +80,7 @@ body{
 }
 .texto_Today{
     position: absolute;
-    color: white;
+    color: #ffff;
     background-color: #ff702a;
     text-decoration: none;
     top: 30em;
@@ -104,7 +104,7 @@ body{
 }
 .texto_good{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 55px;
     top: 25em;
     left: 19.4em;
@@ -112,7 +112,7 @@ body{
 }
 .info_I{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 28px;
     top: 56.4em;
     left: 38.1em;
@@ -120,7 +120,7 @@ body{
 }
 .texto_learn{
     position: absolute;
-    color: white;
+    color: #ffff;
     text-decoration: none   ;
     font-size: 25px;
     top: 72em;
@@ -139,7 +139,7 @@ body{
 }
 .Fresh{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 55px;
     top: 40.5em;
     left: 11.6em;
@@ -149,28 +149,25 @@ body{
     position:absolute;
     background-color: #ffefe8;
     width: 22em;
-    height: 25em;
-    margin-top: 153.1em;
-    margin-left: 25.2em;
-    border: 2px solid black;
+    height: 26em;
+    margin-top: 153em;
+    margin-left: 25em;
 }
 .fondito2{
     position:absolute;
     background-color: #ffefe8;
     width: 22em;
-    height: 25em;
-    margin-top: 153.1em;
-    margin-left: 50.3em;
-    border: 2px solid black;
+    height: 26em;
+    margin-top: 153em;
+    margin-left: 50em;
 }
 .fondito3{
     position:absolute;
     background-color: #ffefe8;
     width: 22em;
-    height: 25em;
-    margin-top: 153.1em;
-    margin-left: 75.4em;
-    border: 2px solid black;
+    height: 26em;
+    margin-top: 153em;
+    margin-left: 75em;
 }
 .caja1{
     position: absolute;
@@ -267,7 +264,7 @@ body{
 }
 .We{
     position: absolute;
-    color: white;
+    color: #ffff;
     font-size: 55px;
     top: 58em;
     left: 10em;
@@ -349,7 +346,6 @@ body{
     height: 35em;
     margin-top: 275em;
     margin-left: 9em;
-    border: 2px solid black;
 }
 .make{
     position:absolute;
@@ -362,7 +358,7 @@ body{
 }
 .texto_learn2{
     position: absolute;
-    color: white;
+    color: #ffff;
     text-decoration: none   ;
     font-size: 25px;
     top: 191em;
@@ -383,7 +379,7 @@ body{
     position: absolute;
     top: 327.3em;
     left: 18.7em;
-    width: 6.3em;
+    width: 5em;
     height: 0.1em;
     background-color: #ff702a;
 }
@@ -406,7 +402,7 @@ body{
     position: absolute;
     top: 327.3em;
     left: 37.6em;
-    width: 6.3em;
+    width: 5em;
     height: 0.1em;
     background-color: #ff702a;
 }
@@ -429,7 +425,7 @@ body{
     position: absolute;
     top: 327.3em;
     left: 59.4em;
-    width: 6.3em;
+    width: 5em;
     height: 0.1em;
     background-color: #ff702a;
 }
@@ -453,7 +449,7 @@ body{
     position: absolute;
     top: 327.3em;
     left: 81.3em;
-    width: 6.3em;
+    width: 5em;
     height: 0.12em;
     background-color: #ff702a;
 }
