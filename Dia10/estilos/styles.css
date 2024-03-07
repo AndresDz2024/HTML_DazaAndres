@@ -123,3 +123,56 @@ body, html {
         top: 500px;
     }
 }
+.numero3{
+    font-family: fantasy;
+    font-size: 100px;
+    color: blue;
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    opacity: 0;
+    animation: conter 1s;
+}
+.numero2{
+    font-family: fantasy;
+    font-size: 100px;
+    color: blue;
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    opacity: 0;
+    animation: conter 1s;
+    animation-delay: 1s;
+
+}.numero1{
+    font-family: fantasy;
+    font-size: 100px;
+    color: blue;
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    opacity: 0;
+    animation: conter 1s;
+    animation-delay: 2s;
+
+}
+.accion{
+    font-family: fantasy;
+    font-size: 100px;
+    color: blue;
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    opacity: 0;
+    animation: conter 1s;
+    animation-delay: 3s;
+
+}
+@keyframes conter{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
